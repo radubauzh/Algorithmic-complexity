@@ -4,13 +4,13 @@
 | -------------- | ----------- | ------------ | -------------- | ----------- | ------------------- |
 | Linear Search  | O(1)        | O(n)         | O(n)           | O(1)        | T(n)=T(n-1) + B     |
 | Binary Search  | O(1)        | O(logn)      | O(logn)        | O(1)        | T(n)=T(n/2)+1       |
-| Bubble Sort    | O(n)        | O(n^2)       | O(n^2)         | O(1)        |          -          |
-| Selection Sort | O(n^2)      | O(n^2)       | O(n^2)         | O(1)        | T(n)=T(n-1) -1      |
-| Insertion Sort | O(n)        | O(n^2)       | O(n^2)         | O(1)        | T(n)=T(n−1)+n       |
+| Bubble Sort    | O(n)        | O(n²)        | O(n²)          | O(1)        |          -          |
+| Selection Sort | O(n²)       | O(n²)        | O(n²)          | O(1)        | T(n)=T(n-1) -1      |
+| Insertion Sort | O(n)        | O(n²)        | O(n²)          | O(1)        | T(n)=T(n−1)+n       |
 | Merge Sort     | O(nlogn)    | O(nlogn)     | O(nlogn)       | O(n)        | T(n)=2T(n/2)+n      |
-| Quick Sort     | O(nlogn)    | O(n^2)       | O(nlogn)       | O(n)        | T(n)=T(n-1)+O(n)    |
-| Quick Lomuto   | O(nlogn)    |  O(n^2)      | O(nlogn)       | O(n)        | T(n)=T(n-1)+O(n)    |
-| Quick Hoare    | O(nlogn)    |  O(n^2)      | O(nlogn)       | O(n)        | T(n)=T(n-1)+O(n)    |
+| Quick Sort     | O(nlogn)    | O(n²)        | O(nlogn)       | O(n)        | T(n)=T(n-1)+O(n)    |
+| Quick Lomuto   | O(nlogn)    |  O(n²)       | O(nlogn)       | O(n)        | T(n)=T(n-1)+O(n)    |
+| Quick Hoare    | O(nlogn)    |  O(n²)       | O(nlogn)       | O(n)        | T(n)=T(n-1)+O(n)    |
 | Build Heap     | O(n)        | O(n)         | O(n)           | O(n)        |          -          |
 | Heap Sort      | O(nlogn)    | O(nlogn)     | O(nlogn)       | O(1)        | T(n)=O(n) + nO(lgn) |
 | Heapify        |      -      |       -      |        -       | O(logn)     | T(n)=T(2n/3)+O(1)   |
