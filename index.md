@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# Time Complexities of Algorithms
 
-You can use the [editor on GitHub](https://github.com/radubauzh/Algorithmic-complexity/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+| Algorithm      | Best Time Ω | Worst Time O | Average Time Θ | Worst Space | Recc.               |
+| -------------- | ----------- | ------------ | -------------- | ----------- | ------------------- |
+| Linear Search  | O(1)        | O(n)         | O(n)           | O(1)        | T(n)=T(n-1) + B     |
+| Binary Search  | O(1)        | O(logn)      | O(logn)        | O(1)        | T(n)=T(n/2)+1       |
+| Bubble Sort    | O(n)        | O(n^2)       | O(n^2)         | O(1)        |          -          |
+| Selection Sort | O(n^2)      | O(n^2)       | O(n^2)         | O(1)        | T(n)=T(n-1) -1      |
+| Insertion Sort | O(n)        | O(n^2)       | O(n^2)         | O(1)        | T(n)=T(n−1)+n       |
+| Merge Sort     | O(nlogn)    | O(nlogn)     | O(nlogn)       | O(n)        | T(n)=2T(n/2)+n      |
+| Quick Sort     | O(nlogn)    | O(n^2)       | O(nlogn)       | O(n)        | T(n)=T(n-1)+O(n)    |
+| Quick Lomuto   | O(nlogn)    |  O(n^2)      | O(nlogn)       | O(n)        | T(n)=T(n-1)+O(n)    |
+| Quick Hoare    | O(nlogn)    |  O(n^2)      | O(nlogn)       | O(n)        | T(n)=T(n-1)+O(n)    |
+| Build Heap     | O(n)        | O(n)         | O(n)           | O(n)        |          -          |
+| Heap Sort      | O(nlogn)    | O(nlogn)     | O(nlogn)       | O(1)        | T(n)=O(n) + nO(lgn) |
+| Heapify        |      -      |       -      |        -       | O(logn)     | T(n)=T(2n/3)+O(1)   |
+| Radix Sort     | O(nk)       | O(nk)        | O(nk)          | O(n+k)      |          -          |
+| Tim Sort       | O(n)        | O(nlogn)     | O(nlogn)       | O(1)        |          -          |
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Time Complexities of Data Structures
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/radubauzh/Algorithmic-complexity/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+| Data Structure     | avg. Indexing | avg. Search | avg. Insertion | avg. Deletion | Worst: Indexing | Worst: Search | Worst: Insertion | Worst: Deletion | Worst: Space |
+| ------------------ | ------------- | ----------- | -------------- | ------------- | --------------- | ------------- | ---------------- | --------------- | ------------ |
+| array              | O(1)          | O(n)        | O(n)           | O(n)          | O(1)            | O(n)          | O(n)             | O(n)            | O(n)         |
+| Dynamic Array      | O(1)          | O(n)        | O(n)           | O(n)          | O(1)            | O(n)          | O(n)             | O(n)            | O(n)         |
+| Singly linked list | O(n)          | O(n)        | O(1)           | O(1)          | O(n)            | O(n)          | O(1)             | O(1)            | O(n)         |
+| doubly linked list | O(n)          | O(n)        | O(1)           | O(1)          | O(n)            | O(n)          | O(1)             | O(1)            | O(n)         |
+| Hash Table         | /             | O(1)        | O(1)           | O(1)          | /               | O(n)          | O(n)             | O(n)            | O(n)         |
+| BST                | O(logn)       | O(logn)     | O(logn)        | O(logn)       | O(n)            | O(n)          | O(n)             | O(n)            | O(n)         |
+| Stack              | O(n)          | O(n)        | O(1)           | O(1)          | O(n)            | O(n)          | O(1)             | O(1)            | O(n)         |
+| Queue              | O(n)          | O(n)        | O(1)           | O(1)          | O(n)            | O(n)          | O(1)             | O(1)            | O(n)         |
+| Cartesian Tree     | /             | O(logn)     | O(logn)        | O(logn)       | /               | O(n)          | O(n)             | O(n)            | O(n)         |
+| RBT                | O(logn)       | O(logn)     | O(logn)        | O(logn)       | O(logn)         | O(logn)       | O(logn)          | O(logn)         | O(n)         |
+| AVL Tree           | O(logn)       | O(logn)     | O(logn)        | O(logn)       | O(logn)         | O(logn)       | O(logn)          | O(logn)         | O(n)         |
+| B-Tree             | O(logn)       | O(logn)     | O(logn)        | O(logn)       | O(logn)         | O(logn)       | O(logn)          | O(logn)         | O(n)         |
