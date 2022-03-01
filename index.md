@@ -1,6 +1,6 @@
 # Time Complexities of Algorithms
 
-| Algorithm      | Best Time Ω | Worst Time O | Average Time Θ | Worst Space | Recc.               |
+| Algorithm      | Best Time Ω | Worst Time O | Average Time Θ | Worst Space | Reccursion          |
 | -------------- | ----------- | ------------ | -------------- | ----------- | ------------------- |
 | Linear Search  | O(1)        | O(n)         | O(n)           | O(1)        | T(n)=T(n-1) + B     |
 | Binary Search  | O(1)        | O(logn)      | O(logn)        | O(1)        | T(n)=T(n/2)+1       |
@@ -25,11 +25,11 @@
 | Dynamic Array      | O(1)          | O(n)        | O(n)           | O(n)          | O(1)            | O(n)          | O(n)             | O(n)            | O(n)         |
 | Singly linked list | O(n)          | O(n)        | O(1)           | O(1)          | O(n)            | O(n)          | O(1)             | O(1)            | O(n)         |
 | doubly linked list | O(n)          | O(n)        | O(1)           | O(1)          | O(n)            | O(n)          | O(1)             | O(1)            | O(n)         |
-| Hash Table         | /             | O(1)        | O(1)           | O(1)          | /               | O(n)          | O(n)             | O(n)            | O(n)         |
+| Hash Table         | -             | O(1)        | O(1)           | O(1)          | -               | O(n)          | O(n)             | O(n)            | O(n)         |
 | BST                | O(logn)       | O(logn)     | O(logn)        | O(logn)       | O(n)            | O(n)          | O(n)             | O(n)            | O(n)         |
 | Stack              | O(n)          | O(n)        | O(1)           | O(1)          | O(n)            | O(n)          | O(1)             | O(1)            | O(n)         |
 | Queue              | O(n)          | O(n)        | O(1)           | O(1)          | O(n)            | O(n)          | O(1)             | O(1)            | O(n)         |
-| Cartesian Tree     | /             | O(logn)     | O(logn)        | O(logn)       | /               | O(n)          | O(n)             | O(n)            | O(n)         |
+| Cartesian Tree     | -             | O(logn)     | O(logn)        | O(logn)       | -               | O(n)          | O(n)             | O(n)            | O(n)         |
 | RBT                | O(logn)       | O(logn)     | O(logn)        | O(logn)       | O(logn)         | O(logn)       | O(logn)          | O(logn)         | O(n)         |
 | AVL Tree           | O(logn)       | O(logn)     | O(logn)        | O(logn)       | O(logn)         | O(logn)       | O(logn)          | O(logn)         | O(n)         |
 | B-Tree             | O(logn)       | O(logn)     | O(logn)        | O(logn)       | O(logn)         | O(logn)       | O(logn)          | O(logn)         | O(n)         |
